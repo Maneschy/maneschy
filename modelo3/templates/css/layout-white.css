@@ -72,17 +72,16 @@ table {
 }
 
 
-
 /* Commons
 --------------------------------------------------------*/
 
 
-::-moz-selection {background: #af1b5a;color: white; }
-::selection {background: #af1b5a;color: white; }
+::-moz-selection {background: #F09E2A;color: white; }
+::selection {background: #F09E2A;color: white; }
 
 body {
 	background: #fff;
-	font: 15px 'Oswald', sans-serif;
+	font: 15px 'Raleway', sans-serif;
 	font-weight: 300;
 	color: #222;
 	-webkit-font-smoothing: antialiased;
@@ -133,7 +132,7 @@ img.scale-with-grid {
 
 h1, h2, h3, h4 {
 	font-weight: 300;
-	font-family: 'Oswald',sans-serif;
+	font-family: 'Raleway',sans-serif;
 	color: #222;
 	margin: 0 0 6px;
 }
@@ -149,7 +148,7 @@ h1 {
 	padding-top: 15px;
 }
 h1 span{
-	color: #7b133c;
+	color: #F09E2A;
 	font-size: 150px;
 }
 
@@ -201,7 +200,7 @@ p a {
 }
 
 p a:hover {
-	color: #a90e4b;
+	color: #F3702C;
 	transition: color 0.5s;
 }
 a {
@@ -209,7 +208,7 @@ a {
 	text-decoration:none;
 }
 a:hover{
-	color:#a90e4b;
+	color: #F3702C;
 }
 .introtext {
 	font-size: 20px;
@@ -218,12 +217,12 @@ a:hover{
 	margin-top: 30px;
 }
 .highlight {
-    background: #7b133c;
+    background: #F09E2A;
     color: #FFFFFF;
     padding: 0 6px;
 }
 .dropcap {
-    background: #7b133c;
+    background: #F09E2A;
     color: #FFFFFF;
     display: inline-block;
     float: left;
@@ -264,14 +263,13 @@ a:hover{
 }
 	
 nav {
-	background: #000;
-	background: rgba(0,0,0,0.8);
+	background: #fff;
 	width: 100%;
 	position: relative;
 	z-index: 1000;
-	height: 50px;
+	height: 70px;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 10px;	box-shadow: 0px 4px 2px #603913;
 }
 
 nav ul {
@@ -288,7 +286,7 @@ nav ul li {
 }
 
 nav ul li a {
-	font-family: 'Oswald',sans-serif;
+	font-family: 'Raleway',sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	color: white;
@@ -298,7 +296,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: #a90e4b;
+	color: #F3702C;
 	transition: color 0.5s;
 }
 
@@ -357,7 +355,7 @@ nav ul li a:hover {
 	color: #fff
 }
 #slidecaption h2 span{
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Raleway', sans-serif;
 	text-transform: capitalize;
 	font-size: 72px;
 	font-weight: 400;
@@ -620,7 +618,7 @@ nav ul li a:hover {
 	padding: 0;
 }
 .gallerySelectorList li:hover {
-	background: #83103e;
+	background: #F09E2A;
 }
 .gallerySelectorList li:hover a {
 	color: #fff;
@@ -635,7 +633,7 @@ nav ul li a:hover {
 	transition:background-color 0.3s ease, color 0.2s ease;
 }
 .gallerySelectorList li.current  {
-	background: #7b133c;
+	background: #F09E2A;
 }
 .gallerySelectorList li.current a {
 	color: #fff;
@@ -655,7 +653,7 @@ nav ul li a:hover {
 }
 
 .project-title {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 	margin-top: 7px;
@@ -715,7 +713,7 @@ nav ul li a:hover {
     height: 100%;
 	padding: 0 20px;
 	opacity: 0;
-	background: #7b133c;
+	background: #F09E2A;
 	text-align: center;
     transition: all 1s ease-in-out;
 }
@@ -831,7 +829,7 @@ nav ul li a:hover {
     transition: all 0.7s ease-in-out 0s;
 }
 .teamImage .teamName {
-    background-color: #7b133c;
+    background-color: #F09E2A;
     opacity: 0;
     transition: all 0.5s linear 0s;
 	height: 100%;
@@ -913,7 +911,7 @@ p.skill {
     text-transform: uppercase;
 }
 .bar {
-    background-color: #7b133c;
+    background-color: #F09E2A;
     border-radius: 11px;
     color: #fff;
     display: inline-block;
@@ -980,7 +978,7 @@ p.percent {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #7b133c;
+    background-color: #F09E2A;
     border-radius: 50%;
 	text-align: center;
 }
@@ -1078,7 +1076,7 @@ p.percent {
     transition: all 0.6s ease-in-out 0s;
 }
 .serviceInfo .serviceInfoBack {
-    background:#7b133c;
+    background: #F09E2A;
     opacity: 0;
     pointer-events: none;
     transform: scale(1.5);
@@ -1169,13 +1167,13 @@ p.percent {
 }
 .accTrigger.active a {
 	cursor: default;
-	color: #9c2252; 
+	color: #F3702C; 
 }
 .accTrigger.active a:hover {
 	
 }
 .accTrigger a:hover {
-	color: #9c2252; 
+	color: #F3702C; 
 }
 .accContainer .content{ 
 	padding: 2px 15px 5px 15px; 
@@ -1312,7 +1310,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
     outline: medium none;
     padding: 6px 4px;
     width: 370px;
-	font-family:'Oswald', sans-serif;
+	font-family:'Raleway', sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -1333,7 +1331,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-	background: #7b133c; 
+	background: #F09E2A; 
 	border: none;
 	padding: 4px 12px;
 	border-radius: 3px;
