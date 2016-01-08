@@ -135,13 +135,13 @@ $(document).ready(function () {
 		slides 					:	[			// Slideshow Images
 			{image : './images/slider/image1.jpg',
 				title : '<h2><span>Responsive</span> Design</h2>',
-				thumb : '',
+				thumb : './images/slider/image1.jpg',
 				url : ''
 				},
 
 			{image : './images/slider/image3.jpg',
 				title : '<h2><span>Fullscreen</span> Slideshow</h2>',
-				thumb : '',
+				thumb : './images/slider/image3.jpg',
 				url : ''
 				},
 
@@ -149,19 +149,19 @@ $(document).ready(function () {
 				title : '<h2><span>Parallax</span> Background</h2>',
 				thumb : '',
 				url : ''
-				},
-
-			{image : './images/slider/image4.jpg',
-				title : '<h2><span>Masonry</span> Portfolio</h2>',
-				thumb : '',
-				url : ''
-				},
-
-			{image : './images/slider/image5.jpg',
-				title : '<h2><span>Showcase</span> your work</h2>',
-				thumb : '',
-				url : ''
 				}
+//
+//			{image : './images/slider/image4.jpg',
+//				title : '<h2><span>Masonry</span> Portfolio</h2>',
+//				thumb : '',
+//				url : ''
+//				},
+//
+//			{image : './images/slider/image5.jpg',
+//				title : '<h2><span>Showcase</span> your work</h2>',
+//				thumb : '',
+//				url : ''
+//				}
 		],
 									
 		// Theme Options			   
